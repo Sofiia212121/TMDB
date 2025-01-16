@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="./fetch.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>TMDB</title>
+</head>
+
+<body>
+
+    <div class="menu">
+        <button class="loadPopularMovies">POPULAR MOVIES</button>
+        <button class="loadTopRatedMovies">TOP RATED MOVIES</button>
+        <div class="form-container">
+            <form action="#" class="search-form">
+                <input type="text" id="search" placeholder="Search..." class="search-input">
+                <div class="suggestions-wrapper" style="display: none;"></div>
+                <button type="submit" class="search-button">SEARCH</button>
+            </form>
+        </div>        
+        <button class="clearWrapper">CLEAR</button>
+    </div>
+    <div class="loader" style="display: none;"></div>
+    <div class="wrapper"></div>
+    <button class="load-more">MORE ...</button>
+
+</body>
+
+</html>
