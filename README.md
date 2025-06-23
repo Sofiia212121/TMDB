@@ -1,1 +1,1 @@
-Deployed game is here https://tmdbprojs.netlify.app
+Deployed is here https://tmdbprojs.netlify.app
